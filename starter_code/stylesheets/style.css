@@ -8,3 +8,44 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+/*MOVIL < 768 */
+@media (width < 768px) {
+  body {
+    background-color: #540b51;
+  }
+ nav { 
+    background-color: #540b51;
+    display: flex;
+    justify-content: space-between;
+    border: solid green 5px;
+    margin: 0px;
+    width: 100%;
+    align-items: center;
+  }
+
+ 
+  nav ul li {
+    display: none;
+    align-items: center;
+  }
+
+  #logo-slack {
+    width: 100px;
+   align-items: center;
+  }
+
+  /* HEADER */
+  header div {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+  header div span {
+    color: #ecb12f;
+    font-family: sans-serif;
+  }
+  .img-size{
+    width: 100%;
+  }
+}
