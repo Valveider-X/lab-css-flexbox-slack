@@ -275,7 +275,10 @@ body {
 
     #logo-slack {
         width: 100px;
-    align-items: center;
+        align-items: center;
+        position: relative;
+        top: 10px;
+        left: 10px;
     }
 
     /* HEADER */
@@ -335,8 +338,8 @@ body {
     #iconGoogle{
         width: 16px;
         background-color: white;
-        /* position: absolute; */
-        float: left;
+        position: absolute;
+        left: 15px;
     }
 
     header div {
